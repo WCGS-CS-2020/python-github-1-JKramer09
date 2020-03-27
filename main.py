@@ -12,9 +12,13 @@
 
 def fibonacci (x) :
   #
-  # Fill in your code below
+  # Fill in your code belowdef fibonacci (x) :
+  if (x <= 2) :
+    return 1
+fib = Fibonacci (x-1) + fibonacci(x-2) :
+return fib
 
-  return 1
+
 
 
 # 
